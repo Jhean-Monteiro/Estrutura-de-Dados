@@ -42,9 +42,7 @@ int main() {
     adicionar(4);
     adicionar(5);
     adicionar(6);
-    printf(fila);
     remover();
     adicionar(7);
-    printf(fila);
     return 0;
 }
