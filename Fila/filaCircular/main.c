@@ -20,7 +20,7 @@ void adicionar(int valor) { // funcao para colocar um numero novo na fila
 } // fim da funcao de adicionar
 
 void remover() { // função para tirar o primeiro da fila
-    if (inicio == -1) { //verifica se a fola esta vazia
+    if (inicio == -1) { //verifica se a fila esta vazia
         printf("Fila vazia! nao tem ninguém pra remover \n");
     } else { // se tem alguém pra tirar
         printf("Removido: %d\n", fila[inicio]); // mostra o valor que esta no inicio e vai sair
