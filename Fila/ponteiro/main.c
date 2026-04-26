@@ -1,4 +1,3 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 #include <stdlib.h> // biblioteca para gerenciar memoria (malloc e free)
 
@@ -21,7 +20,7 @@ void adicionar(struct Fila *f, int num) { // função para colocar um numero na 
         return; // sai da função sem adicionar nada (porque nao tem espaço)
     }
     
-    struct No *novo = (struct No*) malloc(sizeof(struct No)); // Aloca memória para o novo elemento
+    struct No *novo = malloc(sizeof(struct No)); // Aloca memória para o novo elemento
     novo->valor = num; // salva o numero dentro desse novo espaço
     novo->proximo = NULL; // como ele é o último, não aponta para ninguem depois dele
     
